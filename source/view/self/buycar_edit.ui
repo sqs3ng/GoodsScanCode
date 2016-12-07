@@ -1,0 +1,31 @@
+{
+	"RootView":{
+		"bgColor":"00000000",
+		"width":"160",
+		"id":"do_ALayout_root",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"bgColor":"FF8000FF",
+				"width":"160",
+				"x":"2",
+				"y":"2",
+				"fontSize":"34",
+				"id":"do_Button_del",
+				"text":"删 除",
+				"type":"do_Button",
+				"fontColor":"FFFFFFFF",
+				"height":"164"
+			},
+			{
+				"bgColor":"C0C0C0FF",
+				"width":"160",
+				"y":"169",
+				"id":"do_Label_1",
+				"type":"do_Label",
+				"height":"1"
+			}
+		],
+		"height":"170"
+	}
+}

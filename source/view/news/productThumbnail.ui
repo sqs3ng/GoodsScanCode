@@ -1,0 +1,19 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"id":"do_ALayout_root",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"750",
+				"id":"do_ImageView_pic",
+				"type":"do_ImageView",
+				"cacheType":"temporary",
+				"height":"750"
+			}
+		],
+		"height":"750"
+	}
+}

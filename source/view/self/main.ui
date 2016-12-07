@@ -1,0 +1,20 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"id":"do_ALayout_root",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"allowAnimation":"true",
+				"templates":"source://view/self/me.ui,source://view/self/meleft.ui",
+				"width":"750",
+				"id":"do_FragmentView_1",
+				"type":"do_FragmentView",
+				"height":"1109"
+			}
+		],
+		"height":"1109"
+	}
+}

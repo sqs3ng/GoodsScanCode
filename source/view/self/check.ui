@@ -1,0 +1,32 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"id":"do_ALayout_root",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"750",
+				"y":"129",
+				"id":"do_ALayout_lists",
+				"type":"do_ALayout",
+				"views":[
+					{
+						"isHeaderVisible":"true",
+						"isFooterVisible":"true",
+						"templates":"source://view/self/check_row.ui,source://view/self/check_empty.ui",
+						"x":"10",
+						"width":"730",
+						"y":"10",
+						"id":"do_ListView_lists",
+						"type":"do_ListView",
+						"height":"1184"
+					}
+				],
+				"height":"1206"
+			}
+		],
+		"height":"1334"
+	}
+}

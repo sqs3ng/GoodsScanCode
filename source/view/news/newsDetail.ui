@@ -1,0 +1,18 @@
+{
+	"RootView":{
+		"width":"750",
+		"id":"do_ALayout_root",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"750",
+				"centerView":"source://view/news/newsDetail_center.ui",
+				"id":"do_BorderView_1",
+				"centerFillParent":"true",
+				"type":"do_BorderView",
+				"height":"-1"
+			}
+		],
+		"height":"1334"
+	}
+}
