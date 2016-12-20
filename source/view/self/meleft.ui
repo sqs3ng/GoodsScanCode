@@ -209,7 +209,7 @@
 							},
 							{
 								"x":"16",
-								"width":"192",
+								"width":"184",
 								"y":"634",
 								"id":"do_ALayout_quit",
 								"type":"do_ALayout",
@@ -238,7 +238,7 @@
 								"height":"90"
 							},
 							{
-								"x":"294",
+								"x":"200",
 								"width":"149",
 								"y":"634",
 								"id":"do_ALayout_link",
@@ -260,6 +260,36 @@
 										"fontSize":"30",
 										"id":"do_Label_13",
 										"text":"关于",
+										"type":"do_Label",
+										"fontColor":"464646FF",
+										"height":"35"
+									}
+								],
+								"height":"90"
+							},
+							{
+								"x":"320",
+								"width":"133",
+								"y":"634",
+								"id":"do_ALayout_9",
+								"type":"do_ALayout",
+								"views":[
+									{
+										"x":"15",
+										"width":"32",
+										"y":"19",
+										"id":"do_ImageView_14",
+										"source":"source://image/feedback.png",
+										"type":"do_ImageView",
+										"height":"32"
+									},
+									{
+										"x":"56",
+										"width":"73",
+										"y":"17",
+										"fontSize":"30",
+										"id":"do_Label_15",
+										"text":"反馈",
 										"type":"do_Label",
 										"fontColor":"464646FF",
 										"height":"35"

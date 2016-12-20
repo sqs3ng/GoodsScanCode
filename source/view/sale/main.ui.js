@@ -13,6 +13,8 @@ var do_ALayout_root = ui("do_ALayout_root");
 var do_WebView_chart = ui("do_WebView_chart");
 var do_Button_bar = ui("do_Button_bar");
 var do_Button_line = ui("do_Button_line");
+var do_SwitchView_HorV = ui("do_SwitchView_HorV");
+var do_Label_HorV = ui("do_Label_HorV");
 
 style.css(do_Button_bar, {
 	parent : "dynamicButton"
@@ -33,6 +35,18 @@ do_HashData_top.addData({
 	"canscan":"true"
 });
 header.refreshData();
+
+//横向或竖向显示
+do_SwitchView_HorV.on("changed", function(data) {
+	if (data) {
+		do_Page.fire("Vshow");
+		do_Label_HorV.text="竖向";
+	} else {
+		do_Page.fire("Hshow");
+		do_Label_HorV.text="横向";
+	}
+});
+
 
 do_Button_bar.on("touch", "", 2000,function(){
 	do_Page.fire("refreshChar","bar");

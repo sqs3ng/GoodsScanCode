@@ -5,7 +5,15 @@
 <title>test eCharts</title>
 <script type="text/javascript" src="test.js"></script>
 <script type="text/javascript" src="echarts.common.min.js"></script>
-
+<style>
+	.rotate{
+		transform:rotate(90deg);
+		-ms-transform:rotate(90deg); /* Internet Explorer */
+		-moz-transform:rotate(90deg); /* Firefox */
+		-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+		-o-transform:rotate(90deg); /* Opera */
+	}
+</style>
 </head>
 <body>
 
@@ -176,6 +184,25 @@
 				}
 				
 			});
+
+			//横向显示
+			do_Page.on("Hshow", function() {
+				var mb=document.getElementById('mainBar');
+				mb.className="";
+				mb.style.marginTop="0px";
+				mb.style.marginLeft="0px";
+			})
+			//竖向显示
+			do_Page.on("Vshow", function() {
+				var mb=document.getElementById('mainBar');
+				mb.className="rotate";
+				var width=mb.clientWidth;
+				var height=mb.clientHeight;
+				//mb.style.marginTop=height/2+20+"px";
+				//mb.style.marginLeft=width/2+10+"px";
+				mb.style.marginTop=width/2+height/2+"px";;
+				mb.style.marginLeft=-(width/2+height/2)+"px";
+			})
 			
 			function line(){
 				myChart.clear();

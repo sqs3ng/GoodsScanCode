@@ -42,6 +42,24 @@
 						"type":"do_Button",
 						"radius":"20",
 						"height":"40"
+					},
+					{
+						"x":"507",
+						"width":"143",
+						"y":"24",
+						"id":"do_SwitchView_HorV",
+						"type":"do_SwitchView",
+						"height":"40"
+					},
+					{
+						"x":"658",
+						"width":"80",
+						"y":"24",
+						"fontSize":"34",
+						"id":"do_Label_HorV",
+						"text":"横向",
+						"type":"do_Label",
+						"height":"40"
 					}
 				],
 				"height":"1205"
