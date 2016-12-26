@@ -208,7 +208,6 @@
 								"height":"312"
 							},
 							{
-								"x":"16",
 								"width":"184",
 								"y":"634",
 								"id":"do_ALayout_quit",
@@ -238,8 +237,8 @@
 								"height":"90"
 							},
 							{
-								"x":"200",
-								"width":"149",
+								"x":"186",
+								"width":"139",
 								"y":"634",
 								"id":"do_ALayout_link",
 								"type":"do_ALayout",
@@ -268,10 +267,10 @@
 								"height":"90"
 							},
 							{
-								"x":"320",
+								"x":"326",
 								"width":"133",
 								"y":"634",
-								"id":"do_ALayout_9",
+								"id":"do_ALayout_feedback",
 								"type":"do_ALayout",
 								"views":[
 									{
@@ -293,6 +292,13 @@
 										"type":"do_Label",
 										"fontColor":"464646FF",
 										"height":"35"
+									},
+									{
+										"width":"119",
+										"x":"-122",
+										"id":"do_ALayout_10",
+										"type":"do_ALayout",
+										"height":"90"
 									}
 								],
 								"height":"90"

@@ -19,6 +19,8 @@ var do_ImageView_photo = ui("do_ImageView_photo");
 var do_ALayout_camera = ui("do_ALayout_camera");
 var do_ALayout_quit = ui("do_ALayout_quit");
 var do_ALayout_link = ui("do_ALayout_link");
+var do_ALayout_feedback = ui("do_ALayout_feedback");
+
 var do_Album=sm("do_Album");
 var do_Camera=sm("do_Camera");
 var do_DataCache=sm("do_DataCache");
@@ -97,3 +99,11 @@ do_ALayout_link.on("touch", "", 2000, function() {
 	});
 });
 
+//打开反馈
+do_ALayout_feedback.on("touch", "", 2000, function() {
+	do_App.openPage({
+		source : "source://view/feedback/main.ui",
+		statusBarState : "transparent",
+		animationType : "fade"
+	});
+});

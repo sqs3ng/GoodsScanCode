@@ -151,7 +151,7 @@
 								"width":"48",
 								"y":"8",
 								"id":"do_ImageView_b2",
-								"source":"source://image/d2.png",
+								"source":"source://image/local.png",
 								"type":"do_ImageView",
 								"height":"42"
 							},
@@ -161,7 +161,7 @@
 								"y":"52",
 								"fontSize":"24",
 								"id":"do_Label_b2",
-								"text":"销量",
+								"text":"购物车",
 								"type":"do_Label",
 								"fontColor":"000000FF",
 								"height":"28"
@@ -182,7 +182,7 @@
 								"width":"48",
 								"y":"8",
 								"id":"do_ImageView_b3",
-								"source":"source://image/d3.png",
+								"source":"source://image/d2.png",
 								"type":"do_ImageView",
 								"height":"42"
 							},
@@ -192,7 +192,7 @@
 								"y":"52",
 								"fontSize":"24",
 								"id":"do_Label_b3",
-								"text":"反馈",
+								"text":"销量",
 								"type":"do_Label",
 								"fontColor":"000000FF",
 								"height":"28"

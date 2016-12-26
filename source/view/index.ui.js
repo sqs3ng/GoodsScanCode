@@ -90,7 +90,7 @@ do_ALayout_b2.on("touch", "", 2000, function(){
 //	do_Label_b3.fontColor = "000000FF";
 //	do_ViewShower_main.showView("sale");
 	do_App.openPage({
-		source:"source://view/sale/main.ui",
+		source:"source://view/self/buycar.ui",
 		statusBarState:"transparent",
 		animationType:"push_r2l"
 	});
@@ -105,7 +105,7 @@ do_ALayout_b3.on("touch", "", 2000, function(){
 //	do_Label_b2.fontColor = "000000FF";
 //	do_Label_b3.fontColor = "008C00FF";
 	do_App.openPage({
-		source:"source://view/feedback/main.ui",
+		source:"source://view/sale/main.ui",
 		statusBarState:"transparent",
 		animationType:"push_r2l"
 	});
